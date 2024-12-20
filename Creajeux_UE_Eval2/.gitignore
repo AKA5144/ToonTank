@@ -1,0 +1,61 @@
+# Ignore binary files
+*.exe
+*.dll
+*.so
+*.dylib
+*.app
+*.lib
+*.zip
+*.tar.gz
+*.7z
+
+# Ignore intermediate and build files
+/Binaries/*
+/Build/*
+/DerivedDataCache/*
+/Intermediate/*
+/Saved/*
+/*.sln
+/*.vcxproj*
+/*.xcodeproj*
+
+# Ignore specific temporary files
+Thumbs.db
+.DS_Store
+*.log
+*.user
+*.userprefs
+*.opensdf
+*.sdf
+*.suo
+
+# Ignore Unreal Engine config files generated for debugging
+/Config/DefaultEditorPerProjectUserSettings.ini
+
+# Ignore auto-generated files by Visual Studio and other IDEs
+*.VC.db
+*.VC.opendb
+.vscode/
+.idea/
+
+# Ignore plugin intermediate files
+**/Binaries/*
+**/Intermediate/*
+**/Saved/*
+
+# Ignore auto-saved maps
+*_Backup.umap
+*_Auto.umap
+
+# Ignore asset cache and build cache
+*.upx
+*.ushaderbytecode
+*.uasset.cache
+
+# Ignore macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore temporary files from the Unreal Engine Launcher
+**/Saved/Backup
